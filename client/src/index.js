@@ -19,7 +19,7 @@ const store = createStore(
 );
 
 render(
-  <Provider store={store}  basename="/">
+  <Provider store={store}  basename="/travis_example">
     <BrowserRouter>
       <App />
     </BrowserRouter>
